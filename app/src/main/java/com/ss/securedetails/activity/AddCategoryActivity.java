@@ -138,7 +138,6 @@ public class AddCategoryActivity extends AppCompatActivity {
                             categoryNameList.add(itemProductCategory.getCatg_name());
                             categoryList.add(itemProductCategory);
                         }
-                        MyLog.e(TAG, " Category list size as " + categoryNameList);
                         setSpinnerAdapter();
                     }
 
